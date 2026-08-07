@@ -1,0 +1,35 @@
+@media (max-width: 768px) {
+    .footer-bottom {
+        justify-content: center !important;
+    }
+    .contact-form {
+        padding: 20px;
+    }
+    .contact-panel {
+        padding: 24px 20px;
+    }
+    .navbar .nav-link {
+        color: var(--link);
+    }
+    .hero-slides img {
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+@media (max-width: 992px) {
+    .hero-slides img {
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1250px;
+    }
+}
