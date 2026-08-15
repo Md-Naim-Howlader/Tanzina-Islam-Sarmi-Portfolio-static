@@ -423,7 +423,18 @@ img {
     background: var(--gold);
     width: 40px;
 }
+@media (max-width: 992px) {
+    .footer-bottom {
+        flex-direction: column;
+        flex-wrap: wrap !important;
+        text-align: center;
+    }
+}
 @media (max-width: 767.98px) {
+    .btn {
+        padding: 11px 16px;
+        font-size: 13.5px;
+    }
     .hero {
         padding: 118px 0 64px;
         min-height: auto;
@@ -432,6 +443,7 @@ img {
         font-size: 11px;
         padding: 7px 14px 7px 8px;
         margin-bottom: 20px;
+        margin-top: 10px;
     }
     .hero .lede {
         font-size: 15px;
@@ -1142,7 +1154,7 @@ img {
 /* scroll top */
 .scroll-top {
     position: fixed;
-    right: 22px;
+    right: 9px;
     bottom: 22px;
     z-index: 800;
     width: 48px;
